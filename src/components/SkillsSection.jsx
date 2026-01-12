@@ -19,7 +19,7 @@ const skillCategories = [
     color: 'from-cyan-500 to-blue-500',
     skills: [
       { name: 'Node.js', level: 85 },
-      { name: 'Python', level: 75 },
+      { name: 'Python', level: 80 },
       { name: 'REST APIs', level: 88 },
       { name: 'MySQL', level: 84 },
       { name: 'DJango', level: 80 },
@@ -31,9 +31,9 @@ const skillCategories = [
     color: 'from-emerald-500 to-teal-500',
     skills: [
       { name: 'Git', level: 90 },
-      { name: 'Figma', level: 75 },
-      { name: 'Agile/Scrum', level: 80 },
-      { name: 'Postman', level: 70 },
+      { name: 'Figma', level: 70 },
+      { name: 'Agile/Scrum', level: 90 },
+      { name: 'Postman', level: 80 },
     ],
   },
 ];
