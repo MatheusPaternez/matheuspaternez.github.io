@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 import Home3D from './Home3D';
+import resume from '../assets/ResumeITVersion1MatheusPaternez.pdf';
 
 export default function HeroSection() {
   const scrollToAbout = () => {
@@ -9,7 +10,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-violet-950" />
       
@@ -127,6 +128,14 @@ export default function HeroSection() {
               whileTap={{ scale: 0.95 }}
             >
               Get in touch
+            </motion.a>
+            <motion.a
+              href={resume}
+              className="px-8 py-4 rounded-2xl bg-white/5 border border-white/20 text-white font-semibold hover:bg-white/10 transition-all duration-300"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Resume
             </motion.a>
           </motion.div>
         </motion.div>
