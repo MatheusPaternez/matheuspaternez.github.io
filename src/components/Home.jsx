@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 import Home3D from './Home3D';
-import resume from '../assets/ResumeITVersion1MatheusPaternez.pdf';
+import resume from '../assets/MatheusPaternezResume.pdf';
 
 export default function HeroSection() {
   const scrollToAbout = () => {

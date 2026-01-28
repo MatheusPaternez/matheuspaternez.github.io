@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Mail, Phone, Github, Linkedin,File } from 'lucide-react';
-import resume from '../assets/ResumeITVersion1MatheusPaternez.pdf'
+import resume from '../assets/MatheusPaternezResume.pdf'
 
 const contactInfo = [
   { icon: MapPin, label: 'Location', value: 'Brazil' },
