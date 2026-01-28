@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, Github, Layers } from 'lucide-react';
 import expenseTracker from '../assets/expense-tracker.png'
 import courseHub from '../assets/course-hub.png'
+import ptzStore from '../assets/ptzStore.png'
 
 const projects = [
   {
@@ -18,7 +19,7 @@ const projects = [
   {
     id: 2,
     title: 'Course Hub App',
-    description: 'Dynamic Course Hub built with React and Scrum. Features modular components for a seamless user exp.',
+    description: 'Dynamic Course Hub built with React and Scrum. Features modular components for a seamless user experience.',
     image: courseHub,
     tags: ['Tailwind', 'React', 'Scrum'],
     category: 'web',
@@ -34,6 +35,16 @@ const projects = [
     category: 'web',
     github: 'https://github.com/MatheusPaternez/course-hub-php',
     live: 'https://github.com/MatheusPaternez/course-hub-php',
+  },
+  {
+    id: 4,
+    title: 'DJango Grocery Store',
+    description: 'A full-stack Grocery Store application built with Django. Designed to manage secure authentication, product inventory, and cart orders requiring staff approval across three distinct user roles.',
+    image: ptzStore,
+    tags: ['DJango', 'NoSQL', 'Database', 'FullStack Web Application'],
+    category: 'web',
+    github: 'https://github.com/MatheusPaternez/grocery-store-django',
+    live: 'https://github.com/MatheusPaternez/grocery-store-django',
   }
 ];
 
@@ -86,7 +97,7 @@ const ProjectCard = ({ project, index }) => (
       <h3 className="text-xl font-bold text-white mb-2 group-hover:text-violet-400 transition-colors">
         {project.title}
       </h3>
-      <p className="text-slate-400 text-sm mb-4 line-clamp-2">
+      <p className="text-slate-400 text-sm mb-4 ">
         {project.description}
       </p>
       <div className="flex flex-wrap gap-2">
